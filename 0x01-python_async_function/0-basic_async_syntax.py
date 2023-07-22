@@ -27,7 +27,7 @@ async def main():
     """
     Main Function
     """
-    delay = asyncio.run(wait_random())
+    asyncio.run(wait_random())
 
 if __name__ == '__main__':
     main()
